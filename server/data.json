@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "id": "USR-I01",
+      "email": "intern@jns.com",
+      "password": "Intern@123",
+      "role": "intern",
+      "name": "Joshua Martin"
+    },
+    {
+      "id": "USR-M01",
+      "email": "mentor@jns.com",
+      "password": "Mentor@123",
+      "role": "mentor",
+      "name": "Arjun Mehta"
+    },
+    {
+      "id": "USR-H01",
+      "email": "hr@jns.com",
+      "password": "HR@123",
+      "role": "hr",
+      "name": "Maya Sharma"
+    },
+    {
+      "id": "USR-A01",
+      "email": "admin@jns.com",
+      "password": "Admin@123",
+      "role": "admin",
+      "name": "Neha Kapoor"
+    }
+  ],
+  "sessions": {},
+  "tasks": [
+    {
+      "id": "TSK-1042",
+      "title": "Complete attendance API integration",
+      "project": "Intern Nexus CRM",
+      "due": "Today, 5:00 PM",
+      "priority": "High",
+      "status": "In Progress",
+      "progress": 70
+    },
+    {
+      "id": "TSK-1043",
+      "title": "Polish dashboard responsive layout",
+      "project": "Intern Nexus CRM",
+      "due": "Tomorrow",
+      "priority": "Medium",
+      "status": "Pending",
+      "progress": 25
+    },
+    {
+      "id": "TSK-1038",
+      "title": "Create leave workflow test cases",
+      "project": "QA Automation",
+      "due": "22 Jul",
+      "priority": "Low",
+      "status": "Review",
+      "progress": 100
+    },
+    {
+      "id": "TSK-1031",
+      "title": "Authentication module",
+      "project": "Intern Nexus CRM",
+      "due": "18 Jul",
+      "priority": "High",
+      "status": "Completed",
+      "progress": 100
+    }
+  ],
+  "leave": [
+    {
+      "id": "LV-2041",
+      "type": "Sick Leave",
+      "from": "2026-07-15",
+      "to": "2026-07-15",
+      "days": 1,
+      "status": "Approved",
+      "reason": "Medical appointment"
+    },
+    {
+      "id": "LV-2052",
+      "type": "Casual Leave",
+      "from": "2026-07-25",
+      "to": "2026-07-25",
+      "days": 1,
+      "status": "Pending",
+      "reason": "Family function"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Aarav Patel",
+      "role": "Frontend Intern",
+      "college": "VIT Chennai",
+      "score": 94,
+      "status": "Interview"
+    },
+    {
+      "name": "Diya Nair",
+      "role": "Data Science Intern",
+      "college": "SRM University",
+      "score": 91,
+      "status": "Shortlisted"
+    },
+    {
+      "name": "Rohan Das",
+      "role": "Backend Intern",
+      "college": "Anna University",
+      "score": 88,
+      "status": "Review"
+    },
+    {
+      "name": "Ananya Rao",
+      "role": "UI/UX Intern",
+      "college": "MIT Manipal",
+      "score": 86,
+      "status": "Selected"
+    }
+  ],
+  "notifications": [
+    {
+      "title": "Task deadline today",
+      "text": "Attendance API integration is due at 5:00 PM.",
+      "time": "12 min",
+      "type": "red"
+    },
+    {
+      "title": "Work log approved",
+      "text": "Your 19 July work log was approved by Arjun.",
+      "time": "1 hr",
+      "type": "green"
+    },
+    {
+      "title": "Meeting reminder",
+      "text": "Sprint review begins at 3:00 PM in Orion Room.",
+      "time": "2 hrs",
+      "type": "blue"
+    },
+    {
+      "title": "Workspace updated",
+      "text": "Today: Bay 4, Desk 18.",
+      "time": "Today",
+      "type": "orange"
+    }
+  ],
+  "attendance": [
+    {
+      "date": "2026-07-20",
+      "checkIn": "09:03",
+      "checkOut": null,
+      "status": "Present"
+    }
+  ],
+  "records": []
+}
