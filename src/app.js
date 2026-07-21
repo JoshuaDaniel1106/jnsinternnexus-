@@ -4,6 +4,7 @@ import { renderPublicSite, bindPublicSite } from './public-site.js';
 import './site.css';
 import './branding.css';
 import './public-accessibility.css';
+import './ai-chat.css';
 
 const $ = (s, root = document) => root.querySelector(s);
 const store = {
