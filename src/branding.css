@@ -1,0 +1,47 @@
+/* Keep the supplied JNS artwork and hero message together as one brand block. */
+.public-site .site-hero {
+  grid-template-columns: 1fr;
+}
+
+.public-site .hero-branding {
+  position: relative;
+  z-index: 2;
+}
+
+.public-site .hero-brand-row {
+  display: grid;
+  grid-template-columns: clamp(360px, 42vw, 540px) minmax(0, 1fr);
+  column-gap: 20px;
+  align-items: center;
+}
+
+.public-site .hero-brand-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.public-site .hero-actions {
+  margin-left: calc(clamp(360px, 42vw, 540px) + 20px);
+}
+
+@media (max-width: 1050px) {
+  .public-site .hero-brand-row {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  .public-site .hero-brand-logo {
+    max-width: 610px;
+  }
+
+  .public-site .hero-actions {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .public-site .hero-brand-logo {
+    max-width: 405px;
+  }
+}

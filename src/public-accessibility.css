@@ -1,0 +1,613 @@
+/* Public website typography: 1.25x scale, with hero areas at 1.21x. Login and CRM are intentionally excluded. */
+.public-site .announcement {
+    font-size: 13.75px
+}
+.public-site .announcement>span {
+    font-size: 10px
+}
+.public-site .public-brand {
+    font: 600 20px Manrope
+}
+.public-site .public-brand small {
+    font: 700 10px 'DM Sans'
+}
+.public-site .site-links button, .public-site .site-footer button {
+    font-size: 13.75px
+}
+.public-site .btn {
+    font-size: 13.75px
+}
+.public-site .hero-kicker {
+    font-size: 12.1px
+}
+.public-site .site-hero h1 {
+    font: 800 clamp(53.24px,6.66vw,87.12px)/1.07 Manrope
+}
+.public-site .site-hero p {
+    font-size: 19.36px
+}
+.public-site .trust-row {
+    font-size: 13.75px
+}
+.public-site .preview-bar {
+    font-size: 11.25px
+}
+.public-site .preview-bar b {
+    font: 700 12.5px Manrope
+}
+.public-site .preview-layout small {
+    font-size: 8.75px
+}
+.public-site .preview-layout h3 {
+    font: 800 21.25px Manrope
+}
+.public-site .mini-stats span {
+    font-size: 8.75px
+}
+.public-site .mini-stats b {
+    font: 800 20px Manrope
+}
+.public-site .float-card {
+    font-size: 11.25px
+}
+.public-site .float-card small {
+    font-size: 7.5px
+}
+.public-site .impact-strip strong {
+    font: 800 31.25px Manrope
+}
+.public-site .impact-strip span {
+    font-size: 12.5px
+}
+.public-site .eyebrow {
+    font-size: 11.25px
+}
+.public-site .art-code small {
+    font-size: 10px
+}
+.public-site .art-code b {
+    font: 800 36.25px Manrope
+}
+.public-site .art-code i {
+    font-size: 12.5px
+}
+.public-site .experience-badge strong {
+    font: 800 33.75px Manrope
+}
+.public-site .experience-badge span {
+    font-size: 10px
+}
+.public-site .intro-copy h2, .public-site .section-heading h2, .public-site .section-title-row h2, .public-site .why-copy h2, .public-site .public-copy h2 {
+    font: 800 clamp(37.5px,5vw,57.5px)/1.15 Manrope
+}
+.public-site .intro-copy>p, .public-site .section-heading>p, .public-site .section-title-row>div>p, .public-site .why-copy>p {
+    font-size: 16.25px
+}
+.public-site .mission-row h3 {
+    font: 700 16.25px Manrope
+}
+.public-site .mission-row p {
+    font-size: 12.5px
+}
+.public-site .text-arrow {
+    font-size: 13.75px
+}
+.public-site .service-number {
+    font: 700 11.25px Manrope
+}
+.public-site .service-card h3 {
+    font: 700 20px Manrope
+}
+.public-site .service-card p {
+    font-size: 13.75px
+}
+.public-site .service-card button, .public-site .project-info button {
+    font-size: 12.5px
+}
+.public-site .program-cover>span {
+    font-size: 10px
+}
+.public-site .program-cover>b {
+    font-size: 10px
+}
+.public-site .program-meta {
+    font-size: 10px
+}
+.public-site .program-body h3 {
+    font: 700 21.25px Manrope
+}
+.public-site .program-body p {
+    font-size: 12.5px
+}
+.public-site .program-tech i {
+    font-size: 10px
+}
+.public-site .program-foot small {
+    font-size: 10px
+}
+.public-site .program-foot strong {
+    font: 800 21.25px Manrope
+}
+.public-site .project-mock>span {
+    font: 800 13.75px Manrope
+}
+.public-site .mock-window b {
+    font: 800 20px Manrope
+}
+.public-site .project-info>span {
+    font-size: 10px
+}
+.public-site .project-info h3 {
+    font: 700 21.25px Manrope
+}
+.public-site .project-info p {
+    font-size: 12.5px
+}
+.public-site .centered h2 {
+    font: 800 clamp(36.25px,5vw,52.5px) Manrope
+}
+.public-site .centered p {
+    font-size: 15px
+}
+.public-site .tech-row span {
+    font: 800 16.25px Manrope
+}
+.public-site .tech-row b {
+    font-size: 11.25px
+}
+.public-site .benefit-grid span {
+    font: 800 11.25px Manrope
+}
+.public-site .benefit-grid h3 {
+    font: 700 17.5px Manrope
+}
+.public-site .benefit-grid p {
+    font-size: 12.5px
+}
+.public-site .stats-section strong {
+    font: 800 48.75px Manrope
+}
+.public-site .stats-section span {
+    font-size: 11.25px
+}
+.public-site .testimonial-section blockquote {
+    font: 600 clamp(25px,3.75vw,35px)/1.55 Manrope
+}
+.public-site .quote-person strong {
+    font-size: 13.75px
+}
+.public-site .quote-person small {
+    font-size: 10px
+}
+.public-site .stars {
+    font-size: 12.5px
+}
+.public-site .site-cta h2 {
+    font: 800 clamp(36.3px,4.84vw,55.66px)/1.15 Manrope
+}
+.public-site .site-cta p {
+    font-size: 13.31px
+}
+.public-site .site-footer>div>strong {
+    font: 700 13.75px Manrope
+}
+.public-site .site-footer p {
+    font-size: 12.5px
+}
+.public-site .site-footer button, .public-site .site-footer span {
+    font-size: 11.25px
+}
+.public-site .footer-bottom {
+    font-size: 10px
+}
+.public-site .search-modal input {
+    font-size: 17.5px
+}
+.public-site .inner-hero h1 {
+    font: 800 clamp(47.19px,6.66vw,77.44px)/1.1 Manrope
+}
+.public-site .inner-hero p {
+    font-size: 16.94px
+}
+.public-site .feature>span {
+    font-size: 11.25px
+}
+.public-site .feature h3 {
+    font: 700 20px Manrope
+}
+.public-site .feature p {
+    font-size: 12.5px
+}
+.public-site .filter-bar {
+    font-size: 12.5px
+}
+.public-site .detail-hero h1 {
+    font: 800 clamp(42.35px,6.05vw,68.97px) Manrope
+}
+.public-site .detail-chips span {
+    font-size: 11.25px
+}
+.public-site .detail-hero aside strong {
+    font: 800 41.14px Manrope
+}
+.public-site .detail-grid h2 {
+    font: 800 28.75px Manrope
+}
+.public-site .detail-grid p {
+    font-size: 15px
+}
+.public-site .detail-info small, .public-site .detail-info strong {
+    font-size: 12.5px
+}
+.public-site .form-intro h1, .public-site .success-page h1 {
+    font: 800 clamp(41.25px,6.25vw,65px) Manrope
+}
+.public-site .form-section-body h2 {
+    font: 700 21.25px Manrope
+}
+.public-site .application-grid label, .public-site .tracking-card label {
+    font-size: 12.5px
+}
+.public-site .upload-box strong, .public-site .upload-box span {
+    font-size: 11.25px
+}
+.public-site .upload-box input {
+    font-size: 8.75px
+}
+.public-site .consent {
+    font-size: 12.5px
+}
+.public-site .form-submit {
+    font-size: 12.5px
+}
+.public-site .success-mark {
+    font-size: 35px
+}
+.public-site .reference-box strong {
+    font: 800 28.75px Manrope
+}
+.public-site .track-copy h1 {
+    font: 800 clamp(48.75px,7.5vw,82.5px)/1.1 Manrope
+}
+.public-site .tracking-card h2 {
+    font: 800 28.75px Manrope
+}
+.public-site .tracking-error {
+    font-size: 12.5px
+}
+.public-site .status-result>div {
+    font-size: 12.5px
+}
+@media (max-width:700px) {
+    .public-site .site-hero h1 {
+        font-size: 52.03px
+    }
+}
+.public-site .site-links .nav-item>button {
+    font-size: 12.5px
+}
+.public-site .chevron {
+    font-size: 11.25px
+}
+.public-site .mega-kicker {
+    font-size: 10px
+}
+.public-site .mega-menu strong {
+    font: 800 22.5px Manrope
+}
+.public-site .mega-menu p {
+    font-size: 11.25px
+}
+.public-site .mega-links i {
+    font-size: 8.75px
+}
+.public-site .mega-links span {
+    font-size: 11.25px
+}
+.public-site .notification-button i {
+    font: 700 8.75px DM Sans
+}
+.public-site .notice-panel>div button {
+    font-size: 22.5px
+}
+.public-site .notice-panel article span {
+    font-size: 8.75px
+}
+.public-site .notice-panel article b {
+    font-size: 13.75px
+}
+.public-site .notice-panel article p {
+    font-size: 11.25px
+}
+.public-site .notice-panel article button, .public-site .mark-read {
+    font-size: 10px
+}
+.public-site .module-index-card span {
+    font-size: 10px
+}
+.public-site .module-index-card strong {
+    font: 800 32.5px Manrope
+}
+.public-site .module-index-card p {
+    font-size: 12.5px !important
+}
+.public-site .module-tabs button {
+    font-size: 11.25px
+}
+.public-site .module-block-copy h2 {
+    font: 800 clamp(33.75px,3.75vw,47.5px)/1.18 Manrope
+}
+.public-site .module-block-copy>p {
+    font-size: 13.75px
+}
+.public-site .option-grid b {
+    font: 700 13.75px Manrope
+}
+.public-site .option-grid small {
+    font-size: 10px
+}
+.public-site .faq-list article>button {
+    font: 700 15px Manrope
+}
+.public-site .faq-list article p {
+    font-size: 12.5px
+}
+.public-site .enquiry-section h2 {
+    font: 800 47.5px Manrope
+}
+.public-site .enquiry-section p {
+    font-size: 13.75px
+}
+.public-site .mini-enquiry label {
+    font-size: 11.25px
+}
+@media (max-width:1200px) {
+    .public-site .site-links .nav-item>button {
+        font-size: 11.25px
+    }
+}
+@media (max-width:1050px) {
+    .public-site .site-links .nav-item>button {
+        font-size: 13.75px
+    }
+}
+.public-site .home-hub-grid article>span {
+    font-size: 8.75px
+}
+.public-site .home-hub-grid h3 {
+    font: 700 17.5px Manrope
+}
+.public-site .home-hub-grid p {
+    font-size: 11.25px
+}
+.public-site .home-hub-grid button {
+    font-size: 11.25px
+}
+.public-site .newsletter h2 {
+    font: 800 36.25px Manrope
+}
+.public-site .newsletter p {
+    font-size: 12.5px
+}
+.public-site .newsletter-form input, .public-site .newsletter-form select {
+    font-size: 11.25px
+}
+.public-site .internship-features h2 {
+    font: 800 clamp(31.25px,3.75vw,45px) Manrope
+}
+.public-site .internship-features p {
+    font-size: 13.75px
+}
+.public-site .intern-feature-options b {
+    font: 700 13.75px Manrope
+}
+.public-site .intern-feature-options span {
+    font-size: 10px
+}
+.public-site {
+    font-size: 20px
+}
+.public-site .site-links .nav-item>button {
+    font-size: 15px
+}
+.public-site .mega-menu p, .public-site .mega-links span, .public-site .module-tabs button {
+    font-size: 13.75px
+}
+.public-site .section-heading h2, .public-site .section-title-row h2, .public-site .intro-copy h2, .public-site .why-copy h2, .public-site .public-copy h2 {
+    font-size: clamp(42.5px,5.25vw,62.5px)
+}
+.public-site .service-card h3, .public-site .program-body h3, .public-site .feature h3, .public-site .benefit-grid h3, .public-site .home-hub-grid h3 {
+    font-size: 21.25px
+}
+.public-site .service-card p, .public-site .program-body p, .public-site .feature p, .public-site .benefit-grid p, .public-site .module-block-copy>p, .public-site .internship-features p {
+    font-size: 16.25px
+}
+.public-site .program-meta, .public-site .program-tech i, .public-site .eyebrow, .public-site .home-hub-grid article>span {
+    font-size: 12.5px
+}
+.public-site .option-grid b, .public-site .intern-feature-options b {
+    font-size: 16.25px
+}
+.public-site .option-grid small, .public-site .intern-feature-options span {
+    font-size: 12.5px
+}
+.public-site .btn {
+    font-size: 16.25px
+}
+.public-site .filter-bar {
+    font-size: 15px
+}
+@media (max-width:1050px) {
+    .public-site .site-links .nav-item>button {
+        font-size: 16.25px
+    }
+}
+.public-site .hero-image-label b {
+    font: 800 15px Manrope
+}
+.public-site .hero-image-label small {
+    font-size: 11.25px
+}
+.public-site .site-hero h1 {
+    font-size: clamp(60.5px,7.02vw,94.38px)
+}
+.public-site .site-hero p {
+    font-size: 21.78px
+}
+.public-site .hero-kicker {
+    font-size: 13.31px
+}
+.public-site .art-code small {
+    font-size: 12.5px
+}
+.public-site .focus-panel h2 {
+    font: 800 31.25px Manrope
+}
+.public-site .focus-panel p {
+    font-size: 13.75px
+}
+.public-site .feature-dialog-card h2 {
+    font: 800 36.25px Manrope
+}
+.public-site .feature-dialog-card>p {
+    font-size: 16.25px
+}
+.public-site .feature-dialog-card [data-feature-details] span {
+    font-size: 12.5px
+}
+
+/* Public-site color accessibility: slightly deeper purple surfaces and crisp text. */
+.public-site {
+  background: #e7ddff;
+  color: #09090b;
+}
+
+.public-site .site-header,
+.public-site .mega-menu,
+.public-site .module-tabs,
+.public-site .module-tabs button,
+.public-site .search-modal form,
+.public-site .notice-panel,
+.public-site .impact-strip,
+.public-site .intro-section,
+.public-site .programs-section,
+.public-site .tech-section,
+.public-site .testimonial-section,
+.public-site .module-content,
+.public-site .internship-features {
+  background: #e7ddff;
+}
+
+.public-site .services-section,
+.public-site .why-section,
+.public-site .home-hub,
+.public-site .faq-section,
+.public-site .module-block.alt-block,
+.public-site .internship-features > article:nth-child(odd),
+.public-site .form-page {
+  background: #dacdf7;
+}
+
+.public-site .service-card,
+.public-site .program-card,
+.public-site .feature,
+.public-site .benefit-grid article,
+.public-site .tech-row div,
+.public-site .home-hub-grid article,
+.public-site .option-grid button,
+.public-site .intern-feature-options button,
+.public-site .form-section-body,
+.public-site .tracking-card,
+.public-site .mini-enquiry,
+.public-site input,
+.public-site textarea,
+.public-site select {
+  background: #e1d5fb !important;
+}
+
+.public-site .impact-strip :where(strong, span),
+.public-site .intro-section :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .services-section :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .programs-section :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .tech-section :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .why-section :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .testimonial-section :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .home-hub :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .faq-section :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .module-content :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .internship-features :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .form-page :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label),
+.public-site .focus-panel :where(h1, h2, h3, h4, h5, h6, p, span, small, li, label) {
+  color: #09090b;
+}
+
+/* Shared public header actions and box contrast. */
+.public-site .site-actions .apply-header,
+.public-site .site-actions .crm-button {
+  display: inline-flex;
+  background: var(--gradient) !important;
+  color: #fff !important;
+  border: 1px solid #1f2937 !important;
+}
+
+.public-site :where(
+  article,
+  input,
+  textarea,
+  select,
+  .feature,
+  .form-section-body,
+  .tracking-card,
+  .mini-enquiry,
+  .focus-panel,
+  .mega-menu,
+  .notice-panel,
+  .feature-dialog-card,
+  .option-grid button,
+  .intern-feature-options button
+) {
+  border-color: #1f2937 !important;
+}
+
+.public-site :where(
+  .service-card,
+  .program-card,
+  .feature,
+  .benefit-grid article,
+  .tech-row div,
+  .home-hub-grid article,
+  .option-grid button,
+  .intern-feature-options button,
+  .form-section-body,
+  .tracking-card,
+  .mini-enquiry,
+  .notice-panel,
+  .feature-dialog-card
+) {
+  color: #09090b;
+}
+
+/* Keep both requested public header actions aligned and visible. */
+.public-site .site-actions {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  .public-site .site-header {
+    gap: 8px;
+  }
+
+  .public-site .site-logo > div:last-child,
+  .public-site .site-actions .header-icon {
+    display: none;
+  }
+
+  .public-site .site-actions {
+    gap: 4px;
+  }
+
+  .public-site .site-actions .btn {
+    padding: 8px 9px;
+  }
+}

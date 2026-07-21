@@ -2,6 +2,8 @@ import './styles.css';
 import './public.css';
 import { renderPublicSite, bindPublicSite } from './public-site.js';
 import './site.css';
+import './branding.css';
+import './public-accessibility.css';
 
 const $ = (s, root = document) => root.querySelector(s);
 const store = {
